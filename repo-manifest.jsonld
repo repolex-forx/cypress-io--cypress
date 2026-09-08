@@ -4145,8 +4145,9 @@
     {
       "@id": "https://repolex.ai/r/cypress-io/cypress/commit/704e3b5fb99b3db6c1540ca4e831567d8d339fef",
       "git:hexsha": "704e3b5fb99b3db6c1540ca4e831567d8d339fef",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v12.9.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v12.9.0",
+      "repolex:parsedAt": "2026-09-08T05:33:15.672180+00:00"
     },
     {
       "@id": "https://repolex.ai/r/cypress-io/cypress/commit/91d2845a247300b081eab609a851a55e131c53ef",
