@@ -1,0 +1,7 @@
+[2026-09-16T21:40:48Z] === AST ITERATION 1 START | repo=cypress-io/cypress sha=438e5537 ===
+[2026-09-16T21:40:48Z] [iter=1] PHASE START: ast repo=cypress-io/cypress sha=438e5537
+[2026-09-16T21:40:48Z] [iter=1] Building AST aggregate chunks
+[2026-09-16T21:56:13Z] [iter=1] AST chunks built count=2 triples=10449073
+[2026-09-16T21:56:13Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/438e55376a83ce2e4de47bb786215793a7f8e81a/.complete
+[2026-09-16T21:56:13Z] [iter=1] PHASE END: ast elapsed_s=925 elapsed_min=15.4
+[2026-09-16T21:56:13Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
