@@ -1,0 +1,21 @@
+[2026-09-27T19:06:52Z] === ENRICH ITERATION 1 START | repo=cypress-io/cypress sha=1fcbd5bd ===
+[2026-09-27T19:06:52Z] [iter=1] PHASE START: enrich repo=cypress-io/cypress sha=1fcbd5bd runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/1fcbd5bd-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/1fcbd5bd71123df5afe424a4e8ee6757f7db77a5.nq.gz
+[2026-09-27T19:08:14Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=83 MB
+[2026-09-27T19:09:55Z] [iter=1] AST store loaded triples=9412919 load_secs=96 mem_mb=1114 MB
+[2026-09-27T19:09:55Z] [iter=1] Step 2: Finding LSP targets mem_mb=1114 MB
+[2026-09-27T19:10:29Z] [iter=1] LSP targets found call_sites=109099 imports=314 extends=124 implements=1 secs=34
+[2026-09-27T19:10:31Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1114 MB
+[2026-09-27T19:11:35Z] [iter=1] Position index built positions=628198 nodes_with_types=765097 secs=64 mem_mb=1682 MB
+[2026-09-27T19:11:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1682 MB already_completed_types=[] already_completed_files=0
+[2026-09-27T19:11:35Z] [iter=1] Resolving target type target_type=call_site count=109099
+[2026-09-27T19:11:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=0 resolved=0 errors=0 current=packages/driver/cypress/integration/commands/connectors_spec.js
+[2026-09-27T20:01:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.7 files_done=1 resolved=7 errors=771 current=packages/desktop-gui/src/app/intro.jsx
+[2026-09-27T21:06:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.4 files_done=3 resolved=94 errors=1769 current=packages/driver/cypress/integration/commands/actions/submit_spec.js
+[2026-09-27T21:17:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.6 files_done=4 resolved=95 errors=1941 current=packages/driver/cypress/integration/commands/location_spec.js
+[2026-09-27T21:28:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.8 files_done=5 resolved=102 errors=2112 current=packages/desktop-gui/cypress/integration/settings_spec.js
+[2026-09-27T21:53:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.8 files_done=6 resolved=103 errors=2499 current=packages/driver/cypress/integration/commands/actions/check_spec.js
+[2026-09-27T22:32:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=205.2 files_done=7 resolved=115 errors=3092 current=packages/driver/cypress/integration/commands/actions/click_spec.js
+[2026-09-27T23:07:14Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.4 files_completed=7 new_files_this_iter=7 mem_mb=1706 MB
+[2026-09-27T23:07:14Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/1fcbd5bd71123df5afe424a4e8ee6757f7db77a5.nq.gz triples=16356
+[2026-09-27T23:07:14Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-09-27T23:07:14Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14422 elapsed_min=240.4 files_completed=7

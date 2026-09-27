@@ -1,0 +1,33 @@
+{
+  "commit_sha": "1fcbd5bd71123df5afe424a4e8ee6757f7db77a5",
+  "completed_files": [
+    "packages/desktop-gui/cypress/integration/settings_spec.js",
+    "packages/desktop-gui/src/app/intro.jsx",
+    "packages/driver/cypress/integration/commands/actions/check_spec.js",
+    "packages/driver/cypress/integration/commands/actions/submit_spec.js",
+    "packages/driver/cypress/integration/commands/connectors_spec.js",
+    "packages/driver/cypress/integration/commands/location_spec.js",
+    "packages/driver/cypress/integration/commands/xhr_spec.js"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/cypress-io/cypress/lsp/1fcbd5bd71123df5afe424a4e8ee6757f7db77a5",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/1fcbd5bd71123df5afe424a4e8ee6757f7db77a5.nq.gz",
+    "call_sites": 109099,
+    "import_statements": 314,
+    "call_targets_resolved": 124,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 3637,
+    "extends_clauses": 124,
+    "implements_clauses": 1,
+    "import_modules_denormalized": 314,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 54,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14422
+}
