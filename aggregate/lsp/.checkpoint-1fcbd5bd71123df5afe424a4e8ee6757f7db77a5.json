@@ -1,21 +1,37 @@
 {
   "commit_sha": "1fcbd5bd71123df5afe424a4e8ee6757f7db77a5",
   "completed_files": [
+    "cli/lib/tasks/install.js",
     "cli/test/lib/tasks/install_spec.js",
+    "npm/react/cypress/component/advanced/testing-lib-example/testing-lib-spec.js",
     "packages/desktop-gui/cypress/integration/settings_spec.js",
     "packages/desktop-gui/cypress/integration/specs_list_spec.js",
     "packages/desktop-gui/src/app/intro.jsx",
     "packages/driver/cypress/integration/commands/actions/check_spec.js",
     "packages/driver/cypress/integration/commands/actions/click_spec.js",
     "packages/driver/cypress/integration/commands/actions/submit_spec.js",
+    "packages/driver/cypress/integration/commands/actions/type_spec.js",
+    "packages/driver/cypress/integration/commands/agents_spec.js",
+    "packages/driver/cypress/integration/commands/assertions_spec.js",
     "packages/driver/cypress/integration/commands/connectors_spec.js",
     "packages/driver/cypress/integration/commands/location_spec.js",
+    "packages/driver/cypress/integration/commands/window_spec.js",
     "packages/driver/cypress/integration/commands/xhr_spec.js",
     "packages/driver/cypress/integration/cypress/cypress_spec.js",
+    "packages/driver/cypress/integration/e2e/testConfigOverrides.spec.js",
+    "packages/driver/src/cy/assertions.js",
+    "packages/driver/src/cy/stability.js",
     "packages/driver/src/cypress.js",
     "packages/runner/src/app/app.spec.jsx",
+    "packages/server/test/e2e/4_browser_path_spec.js",
     "packages/server/test/integration/cypress_spec.js",
-    "packages/server/test/unit/browsers/electron_spec.js"
+    "packages/server/test/integration/http_requests_spec.js",
+    "packages/server/test/integration/server_spec.js",
+    "packages/server/test/unit/api_spec.js",
+    "packages/server/test/unit/browsers/electron_spec.js",
+    "packages/server/test/unit/modes/record_spec.js",
+    "packages/server/test/unit/plugins/child/preprocessor_spec.js",
+    "scripts/binary/bump.js"
   ],
   "completed_types": [],
   "stats": {
@@ -23,13 +39,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/1fcbd5bd71123df5afe424a4e8ee6757f7db77a5.nq.gz",
     "call_sites": 109099,
     "import_statements": 314,
-    "call_targets_resolved": 197,
+    "call_targets_resolved": 326,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 7166,
+    "errors": 11621,
     "extends_clauses": 124,
     "implements_clauses": 1,
     "import_modules_denormalized": 314,
@@ -37,5 +53,5 @@
     "extends_class_denormalized": 54,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14403
+  "elapsed_seconds": 14411
 }
